@@ -1,0 +1,45 @@
+name: fluttermovie
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.0
+  google_fonts: ^6.2.1
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.4
+  video_player: ^2.9.3
+  video_player_android: ^2.7.17
+  chewie: ^1.10.0
+  flutter_launcher_icons: ^0.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - assets/images/SG.jpg
+     - assets/images/SGN.jpg
+     - assets/images/LM.jpg
+     - assets/images/LMN.jpeg
+     - assets/images/MT.jpg
+     - assets/images/MEG.jpg
+     - assets/images/TIT.jpg
+     - assets/images/IT.jpg
+     - assets/images/AC.jpg
+     - assets/images/ACM.jpg
+     - assets/images/NLOGO.png
+flutter_launcher_icons:
+   android: "launcher_icon"
+   ios: true
+   image_path: "assets/images/NLOGO.png"
+   min_sdk_android: 23 # android min sdk min:16, default 21
+
